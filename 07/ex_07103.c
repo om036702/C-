@@ -6,13 +6,13 @@
 #include <stdio.h>
 
 int main(void){
-	int x, y, z;
-	x = 2;
-	y = 4;
-	x = x + 1;
-	y++;
-	x -= y;
-	z = x + y;
-	printf("x = %d, y= %d, z = %d\n",x , y, z);
-return 0;
+  int x, y, z;
+  x = 2;
+  y = 4;
+  x = x + 1;
+  y++;
+  x -= y;
+  z = x + y;
+  printf("x = %d, y= %d, z = %d\n",x , y, z);
+  return 0;
 }
